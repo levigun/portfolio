@@ -1,0 +1,48 @@
+.d-flex{
+    display: flex;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.align-center{
+    align-items: center;
+}
+
+.h-100vh{
+    height: 100vh;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.primary{
+    color: var(--primary-textcolor);
+}
+
+.secondary {
+    color: var(--h2-text);
+}
+
+.vertical {
+    border-right: 5px solid var(--secondary-color);
+    height: 70vh;
+    position:absolute;
+    left: 200px;
+
+}
+
+.float-left{
+    float:left;
+    margin-right: 25px;
+
+}
+
+.float-right {
+    float:right;
+    margin-left:25px;
+    right:0;
+}
+
