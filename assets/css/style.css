@@ -72,12 +72,33 @@ h2 {
 }
 
 .contact-me {
-    text-align: center;
     box-sizing: border-box;
-    position:absolute;
-    right: 45vw;
+    justify-content: center;
+    position:relative;
+    right: 10vw;
 
 }
+
+.contact-me:hover {
+   background-color: var(--secondary-color); 
+}
+
+/* #telp {
+    width: 2rem;
+
+}
+
+#email {
+    width: 2rem;
+    
+
+}
+
+#github {
+    width: 2rem;
+    
+
+} */
 
 .footer {
     justify-content: center;
