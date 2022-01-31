@@ -15,8 +15,8 @@
 
 <body>
 
-    <nav>
-        <ul class="d-flex">
+    <nav class=" d-flex justify-content-end">
+        <ul class="row">
             <li><a href="#about-me">About Me</a></li>
             <li><a href="#work">Work</a></li>
             <li><a href="#contact-me">Contact Me</a></li>
@@ -30,45 +30,36 @@
         </section>
      </header>
 
-    <main class="container">
-        <section id="about-me" class="row align-center">
-            <article class="col-3">
-                 <h2 >About Me</h2>
-            </article>
-
-            <!-- <div class="vertical d-flex"></div> -->
-            <article class="col-9">
-                <p>I am originally from Indonesia who migrated to Sydney, Australia in 2018. 
-                    I came here to pursue my baking passion and became a pastry chef. Currently have worked as a pastry chef for 3 years and seeking to learn something new. 
-                    Now learning to be a developer and see what the future holds for me.</p>
-            </article>
+    <main class="container-fluid">
+       
+        <section id="cloud-bg" class="col-12 h-100vh d-flex justify-center align-center text-center title">
+                <h2 >About Me</h2>
         </section>
 
-    
-        <section class="row   ">
-
-            <article class="col-3">
-                <h2 >Work</h2>
-            </article>
-
-            <article class="col-9">
-                <!-- <div class="portfolio-box-big"></div>
-                <div class="portfolio-box-small"></div>
-                <div class="portfolio-box-small"></div>   -->
-
-            </article>
-
-            
+        <section  class="col-12 h-100vh d-flex justify-center align-center text-center">
+            <p>I am originally from Indonesia who migrated to Sydney, Australia in 2018. 
+                I came here to pursue my baking passion and a pastry chef since 2019.  
+                Now learning to be a developer to gain a new skill set.</p>
         </section>
-            
+     
+        <section id="work-bg" class="col-12 h-100vh d-flex justify-center align-center title">
+            <h2 class="text-light">Work</h2>
+        </section>
+
+        <section class="col-12">
+            <!-- <div class="portfolio-box-big"></div>
+            <div class="portfolio-box-small"></div>
+            <div class="portfolio-box-small"></div>   -->
+
+        </section>
+
         <section id="contact-me" class="row">
 
             <div class="col-3">
                 <h2 >Contact Me</h2>
             </div>
             
-             <section class="col-9 d-flex">
-               
+             <section class="col-9 d-flex justify-content-center">
                  <button class="btn btn-contact"><i class=" fab fa-linkedin" ></i></button>
                  <button class="btn btn-contact"><i class="fas fa-envelope-open-text" ></i></button>
                  <button class="btn btn-contact"><i class="fab fa-github" ></i></button>

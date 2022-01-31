@@ -4,15 +4,15 @@
 }
 
 body {
-    font-family: sans-serif;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: var(--primary-themecolor);
-    color: rgb(36, 36, 36);
+    color: rgb(65, 60, 60);
 }
 
 nav {
     margin-top: 2vh;
     font-size: 200%;
-    color: var(--h2-text);
+    
     background-color: var(--primary-themecolor);
 }
 
@@ -20,17 +20,17 @@ nav {
 
 ul li {
     padding: 20px;
-    right: 0;
+    color: var(--h2-text);
 }
 
 p {
     display:flex;
     box-sizing:border-box;
-    font-size: 275%;
+    font-size: 500%;
 }
 
 button {
-    color: #E8F3F4;
+    color: black;
     font-size: var(--primary-textcolor);
     border: none;
 }
@@ -42,6 +42,19 @@ button {
     background-position: center;
 }
 
+#cloud-bg {
+    background-image: url(../images/cloud-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#work-bg {
+    background-image: url(../images/work-bg.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
 
 h2 {
     font-size: 400%;
@@ -56,20 +69,10 @@ h2 {
     font-size: 400%;
 }
 
-.line {
-    border-right: 5px solid var(--secondary-color);
-    /* margin-right: 2em; */
-    /* padding-right: 2em; */
-    min-width: 10vw; /*ask this */
-    max-width: 10vw;
-    
+.title {
+    font-size: 500%;
 }
 
-.linegap{
-    gap: var(--gap, 1rem);
-    justify-content: space-between;
-    padding-bottom: 2em;
-}
 
 .portfolio-box-big{
     /* width: auto;
@@ -102,7 +105,7 @@ h2 {
 
 .btn-contact{
     background-color: var(--primary-themecolor);
-    font-size: 32px;
+    font-size: 55px;
     margin-right:1rem;
 
 }
