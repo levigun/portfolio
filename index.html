@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PORTFOLIO</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/f49794165c.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./assets/css/reset.css"/>
     <link rel="stylesheet" href="./assets/css/variables.css"/>
     <link rel="stylesheet" href="./assets/css/helper.css"/>
@@ -23,50 +25,60 @@
 
     <header id="background-img" class="h-100vh d-flex justify-center align-center">
         <section>
-            <h1 class="text-center primary">I'm Levina.</h1>
-            <p class="text-center primary">pastry chef turned learning developer</p>
+            <article class="text-center heading">I'm Levina.</article>
+            <article class="text-center sub-heading">pastry chef turned learning developer</article>
         </section>
      </header>
 
-    <main>
-        <section id="about-me" class="linegap d-flex">
-            <h2 class="secondary float-left d-flex line">About Me</h2>
+    <main class="container">
+        <section id="about-me" class="row align-center">
+            <article class="col-3">
+                 <h2 >About Me</h2>
+            </article>
+
             <!-- <div class="vertical d-flex"></div> -->
-            <p>I am originally from Indonesia who migrated to Sydney, Australia in 2018. 
-                I came here to pursue my baking passion and became a pastry chef. Currently have worked as a pastry chef for 3 years and seeking to learn something new. 
-                Now learning to be a developer and see what the future holds for me.</p>
+            <article class="col-9">
+                <p>I am originally from Indonesia who migrated to Sydney, Australia in 2018. 
+                    I came here to pursue my baking passion and became a pastry chef. Currently have worked as a pastry chef for 3 years and seeking to learn something new. 
+                    Now learning to be a developer and see what the future holds for me.</p>
+            </article>
         </section>
 
     
-        <section id="work" class="linegap d-flex">
-            <h2 class="secondary d-flex float-left line">Work</h2>
-                <div class="d-flex justify-center align-center work">
-                    <img src="assets/images/screenshot.png"/><a href="#image"></a>
-                </div>
-                <!-- <div class="portfolio-box float-right"></div>
-                <div class="portfolio-box float-right"></div> -->
-                
+        <section class="row   ">
+
+            <article class="col-3">
+                <h2 >Work</h2>
+            </article>
+
+            <article class="col-9">
+                <!-- <div class="portfolio-box-big"></div>
+                <div class="portfolio-box-small"></div>
+                <div class="portfolio-box-small"></div>   -->
+
+            </article>
+
+            
         </section>
             
-        <section id="contact-me" class="linegap d-flex">
-             <h2 class="secondary float-left line">Contact Me</h2>
-                    <div class="contact-me">
-                        <!-- <a href="#telp"></a> -->
-                        <img src="assets/images/phoneicon.png">
-                    </div>
-                    <div class="contact-me">
-                        <!-- <a href="#email"></a> -->
-                        <img src="assets/images/emailicon.png">
-                    </div>
-                    <div class="contact-me">
-                        <!-- <a href="#github"></a> -->
-                        <img src="assets/images/githubicon.png">
-                    </div>
+        <section id="contact-me" class="row">
+
+            <div class="col-3">
+                <h2 >Contact Me</h2>
+            </div>
+            
+             <section class="col-9 d-flex">
+               
+                 <button class="btn btn-contact"><i class=" fab fa-linkedin" ></i></button>
+                 <button class="btn btn-contact"><i class="fas fa-envelope-open-text" ></i></button>
+                 <button class="btn btn-contact"><i class="fab fa-github" ></i></button>
+             </section>
         </section>
+
     </main>
     
     <footer class="footer">
-        <h3> 
+        <h3 class="py-3"> 
             &copy;2021 Theresa Levina Gunawan.
         </h3>
     </footer>

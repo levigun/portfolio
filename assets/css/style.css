@@ -6,29 +6,33 @@
 body {
     font-family: sans-serif;
     background-color: var(--primary-themecolor);
+    color: rgb(36, 36, 36);
 }
+
 nav {
-    position:absolute;
-    right: 0;
-    justify-content: space-between;
-    margin-top: 10vh;
+    margin-top: 2vh;
+    font-size: 200%;
+    color: var(--h2-text);
     background-color: var(--primary-themecolor);
 }
 
-nav ul{
-    color: var(--h2-text);
-    min-width: 300px;
-    padding-top: 20px;
-    padding-right: 10vh;
-}
 
-nav ul li {
+
+ul li {
     padding: 20px;
+    right: 0;
 }
 
 p {
     display:flex;
     box-sizing:border-box;
+    font-size: 275%;
+}
+
+button {
+    color: #E8F3F4;
+    font-size: var(--primary-textcolor);
+    border: none;
 }
 
 #background-img {
@@ -38,8 +42,18 @@ p {
     background-position: center;
 }
 
+
 h2 {
-    font-size: 200%;
+    font-size: 400%;
+    text-align: center;
+}
+
+.heading {
+    font-size: 1000%;
+}
+
+.sub-heading {
+    font-size: 400%;
 }
 
 .line {
@@ -57,25 +71,27 @@ h2 {
     padding-bottom: 2em;
 }
 
-/* .portfolio-box1{
-    border-style: solid;
-    border-color: pink;
-    border-width: 1px;
-    width: 800px;
-    height: 500px;
-} */
-
-.work {
-    position:relative;
-    right:25vw;
-    
+.portfolio-box-big{
+    /* width: auto;
+    height: 554px; */
+    border-radius: 15px;
+    background-color: var(--secondary-color);
 }
+
+.portfolio-box-small{
+    /* width: 366px;
+    height: 242px; */
+    border-radius: 15px;
+    background-color: var(--secondary-color);
+}
+
+
 
 .contact-me {
     box-sizing: border-box;
     justify-content: center;
-    position:relative;
-    right: 10vw;
+    
+    
 
 }
 
@@ -83,33 +99,25 @@ h2 {
    background-color: var(--secondary-color); 
 }
 
-/* #telp {
-    width: 2rem;
+
+.btn-contact{
+    background-color: var(--primary-themecolor);
+    font-size: 32px;
+    margin-right:1rem;
 
 }
-
-#email {
-    width: 2rem;
-    
-
-}
-
-#github {
-    width: 2rem;
-    
-
-} */
 
 .footer {
-    justify-content: center;
-    align-items: center;
+    width: 100%;
+    font-size: 2rem;
+    
+    bottom: 0;
     text-align: center;
     box-sizing: border-box;
     background-color: var(--secondary-color);
-
 }
 
-
+/* 
 @media screen and (max-width: 992px) {
     .line{
         position:relative;
@@ -133,4 +141,4 @@ h2 {
     #image{
         width:25vw;
     }
-  }
+  } */
