@@ -1,16 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PORTFOLIO</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/f49794165c.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="./assets/css/reset.css"/>
-    <link rel="stylesheet" href="./assets/css/variables.css"/>
-    <link rel="stylesheet" href="./assets/css/helper.css"/>
-    <link rel="stylesheet" href="./assets/css/style.css"/>
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <link rel="stylesheet" href="./assets/css/variables.css" />
+    <link rel="stylesheet" href="./assets/css/helper.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
 </head>
 
 <body>
@@ -28,50 +30,83 @@
             <article class="text-center heading">I'm Levina.</article>
             <article class="text-center sub-heading">pastry chef turned learning developer</article>
         </section>
-     </header>
+    </header>
 
-    <main class="container-fluid">
-       
-        <section id="cloud-bg" class="col-12 h-100vh d-flex justify-center align-center text-center title">
-                <h2 >About Me</h2>
-        </section>
+    <main class="container">
 
-        <section  class="col-12 h-100vh d-flex justify-center align-center text-center">
-            <p>I am originally from Indonesia who migrated to Sydney, Australia in 2018. 
-                I came here to pursue my baking passion and a pastry chef since 2019.  
+        <section class=" d-flex justify-center align-center text-center row">
+            <h2 id="about-me" class="col-12 col-md-4 col-xl-3">About Me</h2>
+
+            <p class="col-12 col-md-8 col-xl-9">I am originally from Indonesia who migrated to Sydney, Australia in 2018.
+                I came here to pursue my baking passion and a pastry chef since 2019.
                 Now learning to be a developer to gain a new skill set.</p>
         </section>
-     
-        <section id="work-bg" class="col-12 h-100vh d-flex justify-center align-center title">
-            <h2 class="text-light">Work</h2>
-        </section>
 
-        <section class="col-12">
-            <!-- <div class="portfolio-box-big"></div>
-            <div class="portfolio-box-small"></div>
-            <div class="portfolio-box-small"></div>   -->
+        
+        <section class="row">
+        
+            <div class = "container-fluid">
+                <h2 id="work" class="col-12 col-md-4 col-xl-3">My Work</h2>
+                    <button id="resume"><i class="far fa-file"></i> My Resume</button>
+                
+                <div class="col-12 col-md-8 col-xl-9 d-flex">
+
+                    <div class="card-container">
+                        <div class="card-title">
+                            <h1>Crypto Muggles</h1>
+                            <a href="https://github.com/levigun/crypto-website.git"><img src="assets/images/cryptomuggles-logo.png"></a>
+                        </div>
+                    </div>
+
+                    <div class="card-container">
+                        <div class="card-title">
+                            <h1>Password Generator</h1>
+                            <a href="https://github.com/levigun/password-generator.git"><img src="assets/images/pasword-generator-look.png"></a>
+                        </div>
+                    </div>
+
+                    <div class="card-container">
+                        <div class="card-title">
+                            <h1>Weather App</h1>
+                            <a href="https://github.com/levigun/weather-app.git"><img src="assets/images/weather-app-look.png"></a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
 
         </section>
+        
 
         <section id="contact-me" class="row">
 
-            <div class="col-3">
-                <h2 >Contact Me</h2>
+            <div class="col-12 col-md-4 col-xl-3">
+                <h2 id="contact-me">Contact Me</h2>              
             </div>
-            
-             <section class="col-9 d-flex justify-content-center">
-                 <button class="btn btn-contact"><i class=" fab fa-linkedin" ></i></button>
-                 <button class="btn btn-contact"><i class="fas fa-envelope-open-text" ></i></button>
-                 <button class="btn btn-contact"><i class="fab fa-github" ></i></button>
-             </section>
+
+            <section class="col-12 col-md-8 col-xl-9 d-flex justify-content-center">
+                <form class="col-12 col-md-8 col-xl-9 form-container">
+                    <input type="text" class="field" placeholder="Your Name">
+                    <input type="text" class="field" placeholder="Your Email">
+                    <input type="text" class="field" placeholder="Phone">
+                    <textarea placeholder="Message" class="field" id="message"></textarea>
+                    <button id="send">Send</button>                 
+                </form>
+            </section>
         </section>
 
     </main>
-    
+
+    <button class="btn btn-contact"><i class=" fab fa-linkedin"></i></button>
+    <button class="btn btn-contact"><i class="fas fa-envelope-open-text"></i></button>
+    <button class="btn btn-contact"><i class="fab fa-github"></i><a
+            href="https://github.com/levigun"></a></button>
+
     <footer class="footer">
-        <h3 class="py-3"> 
+        <h3 class="py-3">
             &copy;2021 Theresa Levina Gunawan.
         </h3>
     </footer>
 </body>
+
 </html>
