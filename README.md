@@ -2,25 +2,40 @@
 
 ## Description
 
-My name is Theresa Levina Gunawan and this is my first attempt in making an online portfolio. It has my basic information with a bit of my personality in the theme.
-
-It consists of some basic and advanced CSS style but, it doesn't have a porfessional look yet. I am looking forward to creating a better edition of this portfolio after learning more coding knowledge in the coming future. Stay tuned!
+This is my portfolio. In here, I just use basic HTML, CSS, and some Javascript to build it and going to constant update it as my experience increases.
 
 ## Getting Started
 
-Follow these instructions to get the project:
-
-1. Copy this link https://github.com/levigun/portfolio.git and clone it your computer.
-
-2. When you're ready to deploy, use the `git add`, `git commit`, and `git push` 
-commands to save and push your code to your GitHub repository.
-
-3. This link will help you see the project in your live browser!
+Click this link to see it!
 https://levigun.github.io/portfolio/
+
+## User Story
+```
+As a user
+I want to see the portfolio page
+
+WHen I am present on the landing page
+I am presented with a navigation bar and an introductory page.
+
+When I am presented with the navigation bar
+I can click each of them and it will redirect me.
+
+When I scroll tha page
+I am presented information about the developer.
+
+When I click on the developers work
+I an redirected to their github repository with their deployed link.
+
+When I am presented with the contact form
+I can fill in my information and it will be saved to local storage.
+
+When I click the icons on the footer
+I will be directed to the developers linkedin and github profile.
+```
 
 ## Website Look
 
-![Portfolio](./assets/images/websitelook.png)
+![Portfolio](./assets/images/PORTFOLIO.gif)
 
 ## Credits
 https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide
