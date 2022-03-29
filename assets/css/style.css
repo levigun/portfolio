@@ -23,7 +23,7 @@ ul li {
 
 p {
     box-sizing:border-box;
-    font-size: 200%;
+    font-size: 150%;
 }
 
 button {
@@ -172,24 +172,24 @@ img {
     background-color: var(--secondary-color);
 }
 
-/* @media only screen and (max-width: 768px ) {
-    .container {
-        display: grid;
+@media only screen and (max-width: 570px ) {
+    nav {
+        font-size: 150%;
+    }
+    .heading {
+        font-size: 300%;
+    }
+    .sub-heading{
+        font-size: 200%;
+    }
+    p {
+        font-size: 200%;
     }
 
-    body {
-        text-align: center;
+    h2 {
+        font-size: 300%;
     }
-
-  
-
-
-
-    #background-img {
-    background-image: url(../images/background-img.webp);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+    .card-container{
+        height: auto;
     }
-
-}  */
+} 
